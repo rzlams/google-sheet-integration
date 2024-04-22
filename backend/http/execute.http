@@ -1,0 +1,22 @@
+POST http://127.0.0.1:8080
+Content-Type: application/json
+ce-id: 123451234512345
+ce-specversion: 1.0
+ce-time: 2022-12-31T00:00:00.0Z
+ce-type: google.cloud.storage.object.v1.finalized
+ce-source: //storage.googleapis.com/projects/_/buckets/image_bucket
+ce-subject: objects/CF_debugging_architecture.png
+
+{
+  "bucket": "image_bucket",
+  "contentType": "text/plain",
+  "kind": "storage#object",
+  "md5Hash": "...",
+  "metageneration": "1",
+  "name": "CF_debugging_architecture.png",
+  "size": "352",
+  "storageClass": "MULTI_REGIONAL",
+  "timeCreated": "2022-12-31T00:00:00.0Z",
+  "timeStorageClassUpdated": "2022-12-31T00:00:00.0Z",
+  "updated": "2022-12-31T00:00:00.0Z"
+}

@@ -1,0 +1,11 @@
+.cache
+.idea
+.DS_store
+.env
+coverage
+dist
+build
+node_modules
+test-report.xml
+ignore
+credentials.json

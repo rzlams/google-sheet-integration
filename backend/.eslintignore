@@ -1,0 +1,7 @@
+build
+.eslint
+*.config.js
+coverage
+dist
+node_modules
+function.zip
